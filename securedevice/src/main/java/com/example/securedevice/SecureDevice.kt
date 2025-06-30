@@ -26,4 +26,6 @@ class SecureDevice {
 
         return info
     }
+    //17 - "C:\Program Files\Eclipse Adoptium\jdk-17.0.15.6-hotspot"
+    //8 - "C:\Program Files\Eclipse Adoptium\jdk-8.0.452.9-hotspot"
 }
