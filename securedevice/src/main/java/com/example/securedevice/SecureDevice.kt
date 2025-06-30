@@ -3,6 +3,7 @@ package com.example.securedevice
 import android.content.Context
 import android.os.Build
 import android.provider.Settings
+import com.example.securedevice.NativeBridge.isDeviceRooted
 import java.io.File
 
 class SecureDevice {
@@ -24,14 +25,5 @@ class SecureDevice {
         info["developerMode"] = isDevMode
 
         return info
-    }
-
-    private fun isDeviceRooted(): Any {
-        return try {
-            val file = File("/system/xbin/su")
-            file.exists()
-        } catch (e: Exception) {
-            false
-        }
     }
 }
