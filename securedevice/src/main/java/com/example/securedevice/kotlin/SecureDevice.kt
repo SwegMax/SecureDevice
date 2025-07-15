@@ -1,10 +1,9 @@
-package com.example.securedevice
+package com.example.securedevice.kotlin
 
 import android.content.Context
 import android.os.Build
 import android.provider.Settings
-import com.example.securedevice.NativeBridge.isDeviceRooted
-import java.io.File
+import com.example.securedevice.kotlin.NativeBridge.isDeviceRooted
 
 class SecureDevice {
     fun collectSecurityInfo(context: Context): Map<String, Any> {

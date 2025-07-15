@@ -1,4 +1,4 @@
-package com.example.securedevice
+package com.example.securedevice.kotlin
 
 import android.content.ContentProvider
 import android.content.ContentValues

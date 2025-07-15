@@ -1,4 +1,4 @@
-package com.example.securedevice
+package com.example.securedevice.kotlin
 
 object NativeBridge {
     init {

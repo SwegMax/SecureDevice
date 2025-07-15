@@ -4,7 +4,7 @@
 
     <application>
         <provider
-            android:name=".SecureDeviceInitializer"
+            android:name=".kotlin.SecureDeviceInitializer"
             android:authorities="${applicationId}.securedeviceinitializer"
             android:exported="false"
             android:initOrder="100" />
